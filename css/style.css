@@ -1,0 +1,537 @@
+/* Navigation bar2 */
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Bree+Serif&family=Poppins:wght@400;500&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins' sans-serif;
+}
+body{
+    overflow-x: hidden;
+    font-family: 'Poppins' ;
+}
+#navbar{
+    display: flex;
+    align-items: center;
+  
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 1;
+}
+  #logo{
+      margin: 17px 90px;
+  }
+  #logo img{
+    width: 132px;
+}
+
+#navbar ul{
+    display: flex;
+}
+#navbar ul li{
+    list-style: none;
+    font-size: 1.3rem;
+    
+}
+#navbar ul li a{
+    /* display: block; */
+    padding: 5px 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    /* border: 2px solid red; */
+}
+
+.s1{
+    background-image: url('../bg1.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+   
+}
+ #navbar a:hover{
+    color: rgb(25, 0, 255);
+    font-weight: bold;   
+}
+.toppara{
+    margin-top: 40px;
+    color: white;
+    margin-left: 90px;  
+}
+.firstHead{
+    color: blue;
+    font-size: 1.8rem;
+    margin-left: 90px;
+    margin-top: 80px;
+}
+.btnxxx{
+    background-color: blueviolet;
+    color: whitesmoke;
+   height: 40px; 
+}
+.btnxxx:hover{
+   background-color: yellow;
+   color: black;
+}
+.doublebutton{
+    margin-left: 90px;
+    margin-top: 50px;
+}
+
+/* second section */
+#svg img{
+    height: 100px;
+    width: 100px;
+    
+}
+
+.container{
+    width: 60vw;
+    margin: auto;
+  
+    overflow: hidden;
+    
+}
+ .container h1{
+     
+     text-align: center;
+     margin: 30px 10px;
+ }
+
+
+ .item2{
+     position: absolute;
+     display: flex;
+     width: 100%;  
+     background-color: blue; 
+ }
+.heading{
+    font-family: 'Poppins' ;
+    letter-spacing: 3px;
+}
+ .description{
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+     padding: 30px;
+     gap: 10px;
+   
+
+ }
+ .image{
+   height: 200px;
+   width: 200px;
+  background-color: rgb(17, 0, 255);
+  overflow: hidden;
+ }
+ img{
+     width: 100%;
+     height: 100%;
+
+ }
+ .imageDes{
+     display: flex;
+     margin-top: 30px;
+     justify-content: center;
+     font-size: 1.5rem;
+     color: rgb(41, 41, 41);
+ }
+ .part{
+     display: flex;
+     justify-content: space-evenly;
+ }
+ .munu{
+     
+     /* background-color: blue; */
+ }
+ .part-1{
+    display: flex;
+    /* background-color: brown; */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 30px;
+    
+ }
+ .part-2{
+    display: flex;
+    /* background-color: brown; */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 30px;
+    
+ }
+
+ .part-1 img
+ {
+     height: 50px;
+     width: 50px;
+     border: 2px solid blueviolet;
+     background-color: blueviolet;
+     border-radius: 100px;
+     display:block;
+    
+ }
+ .part-2 img{
+     
+     height: 50px;
+     width: 50px;
+     border: 2px solid blueviolet;
+     background-color: blueviolet;
+     border-radius: 100px;
+     display:block;
+ }
+ span{
+     font-weight: bold;
+     font-size: 1.2rem;
+ }
+ .btn{
+     padding: 7px;
+     background-color: blueviolet;
+     color: white;
+ }
+ .btn:hover{
+    
+    background-color: yellow;
+    color: black;
+}
+.part-3{
+    display: flex;
+    /* background-color: brown; */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 30px;
+    
+ }
+.part-3 img{
+     
+    height: 50px;
+    width: 50px;
+    border: 2px solid blueviolet;
+    background-color: blueviolet;
+    border-radius: 100px;
+    display:block;
+}
+.S2{
+    background-color:red;
+    height:800px;
+    width:100vw;
+}
+/* section2 */
+.s2 h1{
+    display: block;
+   text-align: center;
+   justify-content: center;
+   font-size: 2rem;
+   text-transform: uppercase;
+}
+ .images{
+     display: flex;  
+margin-top: 40px;
+ }
+.image1{
+    width:25vw;
+    height:60vh;
+}
+
+.block{
+    padding: 20px;
+    height:30vh;
+  
+}
+.block:hover{
+    background-color:rgb(241, 241, 85);
+}
+.btn2{
+    background-color: rgb(235, 235, 235);
+}
+.btn2:hover{
+    background-color: indigo;
+    color: ivory;
+}
+.s2{
+    /* background-color:brown; */
+   height: 110vh;
+}
+
+
+.sImage{
+   height: 60vh;
+
+}
+
+/* section 3 */
+
+.SECTIONX{
+    height: 50vh;
+    
+}
+.SECTIONX h1{
+    text-align: center;
+    justify-content: center;
+    font-weight: bolder;
+    font-size: 2.2rem;
+}
+.priceTable{
+    display: flex;
+    gap: 50px;
+    text-align: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+.pricing h5{
+    color: grey;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* section-4 */
+.s4{
+   height: 80vh;
+   background-color: blueviolet;
+}
+.s4 h1{
+    text-align: center;
+    justify-content: center;
+    color: cornsilk;
+}
+.VideoProjects{
+    display: flex;
+    gap: 20px;
+   
+}
+.video{
+    width: 33.2%;
+    height: 60vh;
+    margin-top: 50px;
+}
+
+/* section5 */
+.s5{
+    height: 70vh;
+}
+.s5 h1{
+    text-align: center;
+    justify-content: center;
+    font-size: 2rem;
+}
+.teamMembers{
+    margin-top: 10px;
+    display: grid;
+    width: 100%;
+    /* flex-wrap: wrap; */
+    grid-template-columns: repeat(3,minmax(0,1fr));
+    gap: 20px;
+   
+}
+.pic{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+
+}
+.pic img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    background-size: cover;
+    background-position:center ;
+}
+.team{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px 0px;
+}
+.team h5{
+    opacity: 0.5;
+}
+
+/* section6 */
+
+.s6 h1{
+   text-align: center;
+   justify-content: center;
+   font-size: 2rem;
+}
+.photo{
+    height: 45vh;
+    width: 100%;   
+   
+}
+.lifeevent{
+    margin-top: 30px;
+    display: flex;   
+    flex-direction: column;
+    gap: 10px;
+    width: 60%;
+    margin: auto;
+}
+.life{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    
+}
+.photoshoot{
+    height: 60px;
+  
+}
+.lifesmall{
+    display: flex;
+  gap: 5px;
+
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+.butons{
+background-color: black;
+width: 20px;
+}
+.btns{
+    color: blanchedalmond;
+   
+    stroke: white;
+}
+
+/* section 7 */
+.s7{
+    height: 30vh;  
+     background-image:url('../zx.jpg');
+     background-position:  center center;
+     background-repeat: no-repeat;
+     background-size: cover;
+
+     width: 100%;
+     margin-bottom: 20px;
+}
+.news h1{
+    
+    text-align: center;
+    color: gray;
+    font-size: 2rem;
+    padding: 20px;
+}
+.signup{
+    text-align: center;
+    height: 10px;
+}
+.news h1{
+    margin-top: 0px;
+}
+
+.signin{
+    margin-top: 30px;
+    text-align: center;
+    margin-left: 310px;
+}
+.input{
+    width: 20vw;
+    border: 1px solid black;
+    height: 30px;
+    padding: 10px;
+    
+}
+.sbutton{
+    height: 30px;
+    width: 80px;
+    padding: 10px;
+    background-color: blueviolet;
+    color: black;
+    border: none;
+
+}
+.signin :hover{
+ background-color: yellow;
+}
+.signup :hover{
+ background-color: yellow;
+}
+
+/* section 8 */
+.s8{
+    height: 65vh;
+    margin-bottom: 20px;
+}
+.s8 h1{
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+ .last{
+    text-align: center;
+}
+
+.part-x img{
+
+    height: 100px;
+    width: 100px;
+}
+.imgx{
+    text-align: center;
+    /* border: 2px solid black; */
+   margin-top: 20px;
+    margin-bottom: 20px; 
+}
+.bday{
+    text-align: center;
+   opacity: 0.7;
+   margin-top: 10px;
+   margin-bottom: 10px;
+}
+.button-zz{
+    text-align: center;
+}
+.map{
+    display: flex;
+    height: 90vh;
+    width: 100vw;
+}
+.mapimage{
+    width: 50%;
+    height: 100%;
+}
+.mapimage img{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.mapform{
+    background-color: yellow;
+    width: 50%;
+    height: 100%;
+}
+.formx{
+    padding: 30px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;   
+}
+.formx input{
+    height: 40px;
+}
+/* footer section */
+
+.footerxx{
+   margin-top: 20px;
+    padding: 10px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 20px;
+}
